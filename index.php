@@ -61,7 +61,7 @@ $randomGreeting = $greetings[array_rand($greetings)];
     <div class="overlay">
         <h1><?php echo $randomGreeting; ?></h1>
         <p>Уромбаева Альбина</p>
-        <button class="btn" onclick="alert('Добро пожаловать в мир романтики и тайн!')">Нажми меня</button>
+        <button class="btn" onclick="alert('Ааааааааа!')">Нажми</button>
     </div>
 </body>
 </html>
