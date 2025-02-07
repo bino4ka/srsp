@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('https://source.unsplash.com/1600x900/?dark,gothic') no-repeat center center/cover;
+            color: #c0a3e5; /* Фиолетовый оттенок */
+            font-family: 'UnifrakturMaguntia', cursive;
+            text-align: center;
+        }
+
+        .overlay {
+            background: rgba(0, 0, 0, 0.7);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-size: 60px;
+            text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+            color: #a10035; /* Темно-красный */
+        }
+
+        p {
+            font-size: 28px;
+            font-weight: bold;
+            color: #e0c3fc; /* Светло-фиолетовый */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 12px 24px;
+            font-size: 22px;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(45deg, #44000d, #6a0f49);
+            border: 2px solid #ffffff;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: 0.3s;
+            text-transform: uppercase;
+        }
+
+        .btn:hover {
+            background: linear-gradient(45deg, #6a0f49, #44000d);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <h1>Hello World!!</h1>
+        <p>Инициалы:У.А.</p>
+        <button class="btn" onclick="alert('Они наблюдают за тобой...')">Не нажимайте</button>
+    </div>
+</body>
+</html>
